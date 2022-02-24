@@ -3,3 +3,6 @@
 
     header{font-weight: lighter;
     font-family: 'Open Sans', sans-serif;}
+     ul{
+        list-style-type: none;
+      }
