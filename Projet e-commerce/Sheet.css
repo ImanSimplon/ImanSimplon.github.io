@@ -1,0 +1,26 @@
+*{margin: 20;
+    padding: 20;}
+
+header{font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;}
+
+ul{ list-style-type: none;}
+/* 
+nav
+{
+    display: flex;
+    justify-content:flex-start;
+    margin-right: 10px; */
+
+/* } */
+.Antenne{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row-reverse;
+    position: absolute;
+width: 1270px;
+height: 61px;
+left: 54px;
+top: 37px;
+
+}
