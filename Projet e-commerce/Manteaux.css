@@ -1,1 +1,112 @@
-*{margin: 0;}
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box}
+
+body{display: flex; 
+    align-items: center; 
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 24px;}
+
+header{font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;}
+
+nav{font-size: 18px;
+font-weight: 400;}
+
+    .Logomarque{
+       margin-left: 42px;
+       padding-top: 30px;}
+
+    .MenuEcrit{
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        font-weight: lighter;
+        font-family: 'Open Sans', sans-serif;
+        position: absolute;
+        width: 536px;
+        height: 25px;
+        left: 440px;
+        top: 42px;}
+   
+   .Icones{display: flex;
+       justify-content:space-evenly;
+       margin-right: 10px; 
+       position: absolute;
+       width: 134px;
+       height: 27px;
+       left: 1178px;
+       top: 42px;}
+
+ section{
+    /* border: 4px solid black;  */
+    height: 977px;
+    width: 1120px;
+    left: 1156px;
+    top: 1932px;
+    border-radius: 0px;
+    margin: 148px;}
+
+div{
+    display: flex; flex-direction: row;
+justify-content: center;
+}
+
+.Manteaux{margin-bottom: 21px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: #B41919;}
+
+article{display: flex;
+justify-content: space-between;margin-bottom: 18px;
+}
+
+.bold{font-weight: bold;}
+
+.Fourrure a{display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    /* border: 4px solid black;} */}
+
+.Doudoune a{display: flex; flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+
+.Rétro a{display: flex; flex-direction: column;
+            justify-content: center;
+            align-items: center; }
+
+ .Pop a{display: flex; flex-direction: column;
+            justify-content: center;
+            align-items: center; }
+
+.Trench a{display: flex; flex-direction: column;
+                justify-content: center;
+                align-items: center; }    
+                
+.Roses a{display: flex; 
+                flex-direction: column;
+                justify-content: center;
+                align-items: center; }
+
+ul{list-style-type: none; 
+    display: flex;
+    justify-content: right; 
+    flex-direction:column;
+    margin-left: 1070px;
+    margin-top: 8px;}
+
+    footer{height: 185px;
+        /* border: 4px solid black; */
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 1230px;
+        margin: 100px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 24px
+    }
