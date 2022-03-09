@@ -1,26 +1,67 @@
-*{margin: 20;
-    padding: 20;}
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box}
 
 header{font-weight: lighter;
-    font-family: 'Open Sans', sans-serif;}
-
-ul{ list-style-type: none;}
-/* 
-nav
-{
-    display: flex;
-    justify-content:flex-start;
-    margin-right: 10px; */
-
-/* } */
-.Antenne{
-    display: flex;
-    justify-content:flex-start;
-    flex-direction: row-reverse;
-    position: absolute;
-width: 1270px;
-height: 61px;
-left: 54px;
-top: 37px;
-
+    font-family: 'Open Sans', sans-serif;
+margin-bottom: 40px;
 }
+
+nav{font-size: 18px;
+    font-weight: 400;}
+
+    .Logomarque{
+            margin-left: 42px;
+            padding-top: 30px;}
+
+    .MenuEcrit{display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        font-weight: lighter;
+        font-family: 'Open Sans', sans-serif;
+        position: absolute;
+        width: 536px;
+        height: 25px;
+        left: 440px;
+        top: 42px;}
+   
+   .Icones{display: flex;
+       justify-content:space-evenly;
+       margin-right: 10px; 
+       position: absolute;
+       width: 134px;
+       height: 27px;
+       left: 1178px;
+       top: 42px; }
+
+      #Accueil{margin-left: 114px;}
+
+      #Doudoune{margin-left: 74px;}
+
+      #Tissus{margin-left: 200px;}
+
+      ul{list-style-type: none; 
+        display: flex;
+        justify-content: right; 
+        flex-direction:column;
+        margin-left: 1070px;
+        margin-top: 8px;}
+    
+        .Réseaux{display: flex; 
+            justify-content: space-between;
+        align-items: flex-start;
+        font-weight: 400;
+        font-size: 24px;
+        }            
+    
+        footer{height: 185px;
+            /* border: 4px solid black; */
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            width: 1230px;
+            margin: 100px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 24px
+        }        
