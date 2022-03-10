@@ -1,0 +1,127 @@
+
+/* HEATHER */
+header{
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    width: 1270px;
+    height: 61px;
+    left: 42px;
+    top: 28px;
+    }
+
+
+.DoudouneTitre{
+    position: absolute;
+    width: 249px;
+    height: 65px;
+    left: 121px;
+    top: 210px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+
+    color: #B41919;    
+}
+
+.TitreREF{
+    
+    position: absolute;
+    width: 187px;
+    height: 49px;
+    left: 607px;
+    top: 275px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+/* identical to box height */
+color: #000000;
+}
+
+.Doudoune0{
+    position: absolute;
+    width: 299px;
+    height: 494px;
+    left: 124px;
+    top: 280px;
+
+    background: url(image.png);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content:flex-start;
+    margin-right: 10px; 
+} 
+
+
+/* BODY */
+#photo{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row-reverse;
+    position: absolute;
+}
+p{
+    position: absolute;
+    width: 541px;
+    height: 293px;
+    left: 615px;
+    top: 324px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 35px;
+
+    color: #000000;
+}
+/* IMAGES  */
+
+img{
+    object-fit: cover;
+}
+#Apercus,#Devant, #Detail, #Dos{
+position: absolute;
+width: 114px;
+height: 41px;
+left: 123px;
+top: 785px;
+
+
+/* identical to box height */
+
+color: #000000;
+}
+
+span{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+/* FOOTER */
+
+div{
+    display: flex;
+    justify-content: center;
+
+}
+
+ul{
+    list-style-type: none;
+    justify-content: right;}
